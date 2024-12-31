@@ -133,14 +133,14 @@ main {
 
 main h1 {
     color: #E4D3B2;
-    font-size: 35px;
+    font-size: 2rem;
     margin: 0;
     line-height: 1.2;
 }
 
 main p {
     color: black;
-    font-size: 25px;
+    font-size: 1.4rem;
     margin: 0;
     padding: 0;
     line-height: 1.5;
@@ -160,6 +160,7 @@ main a {
 main a.saiba-mais {
     display: inline-block;
     margin-top: 20px;
+    font-size: 1rem;
     transition: transform 0.1s ease;
 }
 
@@ -436,7 +437,7 @@ main a.saiba-mais:hover {
     border: 2px solid #B8A47C;
     border-radius: 50px;
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 1.6;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -466,7 +467,7 @@ main a.saiba-mais:hover {
 }
 
 .contato-item h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: rgb(124, 100, 56);
     margin-bottom: 5px;
 }
@@ -474,6 +475,7 @@ main a.saiba-mais:hover {
 .contato-item p {
     font-size: 1rem;
     color: #4A3A27;
+    line-height: 1.5;
 }
 
 .contato-formulario {
@@ -492,6 +494,7 @@ main a.saiba-mais:hover {
     display: block;
     margin-bottom: 8px;
     font-size: 1rem;
+    line-height: 1.5;
     color: #4A3A27;
 }
 
@@ -519,7 +522,7 @@ main a.saiba-mais:hover {
     border: none;
     padding: 10px 20px;
     border-radius: 50px;
-    font-size: 1rem;
+    font-size: 1.01rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
@@ -539,7 +542,7 @@ textarea {
 footer {
     background-color: #ffffff; 
     color: #4A3A27; 
-    padding: 20px 10px;
+    padding: 10px 10px;
     text-align: center;
 }
 
@@ -551,6 +554,10 @@ footer {
     align-items: center;
 }
 
+.footer-content p{
+    font-size: 1rem;
+}
+
 .footer-nav {
     display: flex;
     gap: 15px;
@@ -559,7 +566,7 @@ footer {
 .footer-nav a {
     color: #4A3A27;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     transition: color 0.3s;
 }
 
