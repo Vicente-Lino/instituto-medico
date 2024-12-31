@@ -11,6 +11,7 @@ header {
     position: relative;
 }
 
+
 /* Links gerais */
 a {
     text-decoration: none;
@@ -768,7 +769,7 @@ footer {
 
     .contato-info p,
     .contato-item p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .contato-item h3,
@@ -779,11 +780,11 @@ footer {
     .contato-formulario form input,
     .contato-formulario form textarea {
         padding: 6px;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .btn-enviar {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         padding: 10px 12px;
         margin: 5px auto;
         display: block;
@@ -881,6 +882,6 @@ footer {
     .contato-info,
     .contato-formulario {
         width: 100%;
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
 }
