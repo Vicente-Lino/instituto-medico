@@ -664,7 +664,6 @@ textarea {
     
 }
 
-
 @media (max-width: 480px) {
     .quadrados {
         gap: 20px;
@@ -757,3 +756,72 @@ textarea {
         display: block;
     }
 }
+
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    nav ul {
+        gap: 15px;
+    }
+
+    .quadrados {
+        gap: 30px;
+    }
+
+    .quadrado {
+        width: 120px;
+        height: 120px;
+    }
+
+    .quadrado-sobre {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 992px) {
+    nav ul {
+        display: none; /* Esconde o menu na navegação padrão */
+    }
+
+    .menu-toggle {
+        display: block; /* Mostra o botão de alternar menu */
+    }
+
+    .card-container,
+    .servicos-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .quadrados {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sobre-nos-quadrado,
+    .servicos,
+    .contato {
+        padding: 20px;
+    }
+
+    .sobre-nos-titulo,
+    .servicos-titulo,
+    .contato-titulo {
+        font-size: 1.8rem;
+    }
+
+    .btn-enviar {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .contato-info,
+    .contato-formulario {
+        min-width: 100%;
+    }
+}
+
